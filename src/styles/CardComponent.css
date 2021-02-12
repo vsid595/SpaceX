@@ -1,0 +1,28 @@
+.items {
+  width: 300px;
+}
+
+.img {
+  width: 100px;
+  height: 100px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 3%;
+}
+
+.container {
+  display: flex;
+}
+
+@media screen and (min-width: 100 px) {
+  .container {
+    flex-direction: row;
+    background-color: brown;
+  }
+}
+
+#but {
+  margin: 5;
+}
